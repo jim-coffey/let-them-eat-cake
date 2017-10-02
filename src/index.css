@@ -1,0 +1,154 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  padding-bottom: 2px;
+}
+
+a {
+  text-decoration: none;
+  color: #d0021b;
+  font-weight: bold;
+  font-size: 0.8em;
+  text-align: right;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  align-items: center;
+}
+
+.column input {
+  border-radius: 3px;
+  margin: 10px 0;
+  padding: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.43);
+  font-size: 16px;
+  width: 80%;
+}
+
+.column input.error {
+  border-color: red;
+}
+
+.column label {
+  float: left;
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.header {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.desc {
+  text-align: center;
+  font-size: 14px;
+}
+
+.reset {
+  border: none;
+  background: transparent;
+  color: #d0021b;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.reset:hover {
+  cursor: pointer;
+}
+
+.cake-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.cake-item {
+  margin: 20px;
+  text-align: center;
+}
+
+.space-list-items {
+  margin-bottom: 7px;
+}
+
+.cake-pic {
+  width: 160px;
+  border-radius: 10%;
+}
+
+.centered {
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav li {
+  margin-right: 15px;
+  color: orange;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button {
+  color: #e6e6e6;
+  background: #222;
+  border: none;
+  font-size: 16px;
+  border-radius: 3px;
+  width: 200px;
+  text-align: center;
+  display: block;
+  padding: 7px 0;
+  margin: auto;
+}
+
+.button:hover:enabled {
+  background: linear-gradient(#1a1a1a, #222);
+  color: #fff;
+  text-decoration: none;
+}
+
+.button:active {
+  transform: traslateY(1px);
+}
+
+.button.disabled {
+  background-color: #888;
+}
+
+input.search {
+  margin-top: 8px;
+}

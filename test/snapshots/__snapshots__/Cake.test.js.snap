@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cake (Snapshot) renders correctly 1`] = `
+<li
+  className="cake-item"
+>
+  <ul
+    className="space-list-items"
+  >
+    <li>
+      <a
+        href="#"
+        onClick={[Function]}
+      >
+        Edit
+      </a>
+    </li>
+    <li>
+      <img
+        alt="Image for Cake1"
+        className="cake-pic"
+        src="http://image"
+      />
+    </li>
+    <li
+      className="header"
+    >
+      Cake1
+    </li>
+    <li
+      className="desc"
+    >
+      desc1
+    </li>
+  </ul>
+</li>
+`;
